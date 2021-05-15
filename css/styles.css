@@ -233,10 +233,6 @@ footer {
   text-decoration: none;
 }
 
-#demo {
-  margin-left: 15px;
-}
-
 .shadow {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -571,6 +567,13 @@ footer {
   margin: 0 0 5px 0;
 }
 
+#shopify-header-info {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #374054;
+  margin: 15px 0 0.5px 0;
+}
+
 .project-info p {
   color: #74808a;
   margin: 0 0 15px 0;
@@ -580,7 +583,14 @@ footer {
 
 .project-info li {
   color: #000000;
-  margin: 0 0 1px 0;
+  margin: 0 0 0.5px 0;
+  font-size: 0.88em;
+  text-align: left;
+}
+
+.shopify-info li {
+  color: #000000;
+  margin: 0 0 0.5px 0;
   font-size: 0.9em;
   text-align: left;
 }
